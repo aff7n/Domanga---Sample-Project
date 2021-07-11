@@ -1,1 +1,1 @@
-# Domanga---Sample-Project
+# Practice-project

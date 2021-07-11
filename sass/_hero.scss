@@ -1,0 +1,47 @@
+.hero {
+    background-image: url(/img/hero-bg-2.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+
+
+    &__container {
+        max-width: 120rem;
+        margin: 0 auto;
+        padding: 0 5rem;
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    &__heads {
+
+        h1 {
+            display: block;
+            width: fit-content;
+            font-size: 6rem;
+            color: #fff;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 2.8rem;
+            text-decoration: none;
+            outline: 2px solid #fff;
+            padding: .5rem 2.5rem;
+            font-size: 3.8rem;
+            color: $color-primary;
+            font-weight: 500;
+            text-transform: uppercase;
+            transition: all .3s;
+
+            &:hover {
+                background-color: $color-primary-low-opacity;
+                color: #fff;
+            }
+        }
+    }
+}
